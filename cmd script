@@ -26,3 +26,4 @@ mkdir C1
 #perform kallisto on trimmed and validated reads
 kallisto quant -i "/home/bdi/kallisto_index/human/transcriptome.idx" -o kallisto_output/C1 -b 100 "/media/bdi/disk1_8TB/sarahstorr/KNS42/FASTQC/X204SC23021835-Z01-F002/01.RawData/C1_EKRO230001547-1A_HCG2MDSX7_L3_1_val_1.fq.gz""/media/bdi/disk1_8TB/sarahstorr/KNS42/FASTQC/X204SC23021835-Z01-F002/01.RawData/C1_EKRO230001547-1A_HCG2MDSX7_L3_2_val_2.fq.gz"
 #perform kallisto on larger command
+#
